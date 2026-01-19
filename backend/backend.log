@@ -1,0 +1,82 @@
+nohup: ignoring input
+/home/mishrashardendu22/Coding_Stuff_Fedora/Movie-Search/backend/.venv/lib64/python3.14/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator TfidfTransformer from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/mishrashardendu22/Coding_Stuff_Fedora/Movie-Search/backend/.venv/lib64/python3.14/site-packages/sklearn/base.py:463: InconsistentVersionWarning: Trying to unpickle estimator TfidfVectorizer from version 1.6.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+INFO:     Started server process [105747]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+✅ All models loaded successfully!
+INFO:     127.0.0.1:39110 - "GET /search/tfidf?q=avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46758 - "GET /search/tfidf?q=avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34778 - "GET /search/tfidf?q=toy+story&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35572 - "GET /search/tfidf?q=love+romance&k=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60034 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "GET /search/dl?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39674 - "GET /search/tfidf?q=home+alone&k=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55252 - "GET /search/dl?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55252 - "GET /search/dl?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55252 - "GET /search/dl?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55252 - "GET /search/dl?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59396 - "GET /search/dl?q=toy%20story&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59396 - "GET /search/tfidf?q=toy%20story&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59396 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59396 - "GET /search/tfidf?q=Avatar%202&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59396 - "GET /search/tfidf?q=avatar%202&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60028 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60028 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60028 - "GET /search/tfidf?q=Toy&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37638 - "GET /search/tfidf?q=ice&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43756 - "GET /search/tfidf?q=test&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43756 - "GET /search/tfidf?q=learb&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43756 - "GET /search/tfidf?q=learn&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43718 - "GET /search/dl?q=avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49582 - "GET /search/tfidf?q=test&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37542 - "GET /search/tfidf?q=comedy&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34336 - "GET /search/tfidf?q=toys&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34336 - "GET /search/tfidf?q=toy&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34336 - "GET /search/dl?q=toy&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41964 - "GET /search/dl?q=avatar&k=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34454 - "GET /search/dl?q=children%27s%20toys&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37552 - "GET /search/tfidf?q=love&k=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37556 - "GET /search/dl?q=love&k=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37560 - "GET /search/tfidf?q=children%27s%20toys&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55776 - "GET /search/tfidf?q=jungle&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49330 - "GET /search/tfidf?q=stuck%20in%20agame%20&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49330 - "GET /search/tfidf?q=stuck%20in%20a%20game%20&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34952 - "GET /search/dl?q=stuck%20in%20a%20game%20&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34952 - "GET /search/dl?q=jungle&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43690 - "GET /search/tfidf?q=Avatar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43690 - "GET /search/tfidf?q=Avataar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42574 - "GET /search/tfidf?q=Avataar&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42574 - "GET /search/tfidf?q=ho&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49404 - "GET /search/tfidf?q=Toy&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49404 - "GET /search/tfidf?q=Toy%20Story%202&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59186 - "GET /search/tfidf?q=Toy&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53668 - "GET /search/tfidf?q=Love&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59532 - "GET /search/dl?q=Love&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39182 - "GET /search/dl?q=Love&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58850 - "GET /search/dl?q=pakistan%20india&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60400 - "GET /search/tfidf?q=pakistan%20india&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43380 - "GET /search/tfidf?q=pakistan%20india&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43380 - "GET /search/tfidf?q=pakistan%20india&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43386 - "GET /search/dl?q=data&k=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44208 - "GET /search/dl?q=mean&k=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46748 - "GET /search/tfidf?q=asd&k=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46748 - "GET /search/dl?q=asd&k=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53732 - "GET /search/dl?q=love&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53732 - "GET /search/tfidf?q=love&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48922 - "GET /search/tfidf?q=paksitan%20indai&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48922 - "GET /search/tfidf?q=paksitan%20india&k=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48922 - "GET /search/dl?q=paksitan%20india&k=5 HTTP/1.1" 200 OK
